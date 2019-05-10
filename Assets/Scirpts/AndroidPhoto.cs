@@ -16,7 +16,6 @@ public class AndroidPhoto : MonoBehaviour
     //打开相册	
     public void OpenPhoto(int typeid)
     {
-
         this.typeid = typeid;
 #if UNITY_ANDROID
         Debug.Log("CAMERA");
