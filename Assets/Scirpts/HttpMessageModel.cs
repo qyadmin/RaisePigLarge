@@ -446,7 +446,7 @@ public class HttpMessageModel : MonoBehaviour {
             }
             JsonData jd = JsonMapper.ToObject(sr);
             Data.ShowMessage = jsondata;
-            Debug.Log(jsondata);
+            Debug.Log(jsondata + "  " + gameObject.name);
             Data.GetBase.code = jd.Keys.Contains("code") ? jd["code"].ToString() : "";
             Data.GetBase.result = jd.Keys.Contains("result") ? jd["result"].ToString() : "";
             Data.GetBase.msg = jd.Keys.Contains("msg") ? jd["msg"].ToString() : "";

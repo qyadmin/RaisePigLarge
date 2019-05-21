@@ -134,7 +134,9 @@ public class EncryptDecipherTool {
 		for (int i = 0; i < hash.Length; i++)  
 		{  
 			sb.Append(hash[i].ToString("x2"));//大  "X2",小"x2"    
-		} 
+		}
+        Static.Instance.AddValue("token", sb.ToString());
+        Static.Instance.AddValue("time", time);
 		string Md5OK = "token" + "=" + sb.ToString() + "&" + "time" + "=" + time;
 		return Md5OK;  
 	}

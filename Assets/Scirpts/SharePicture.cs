@@ -16,18 +16,23 @@ using UnityEngine.UI;
 public class SharePicture : MonoBehaviour {
     public RawImage pictureRawImg;
     public Button addBtn, submitBtn;
-    //public HttpModel http_SharePicture;
+    public HttpModel http_SharePicture;
     public Text tipTxt;
 
     private void OnEnable()
     {
         pictureRawImg.texture = null;
+        tipTxt.text = null;
+        LoadImage.GetLoadIamge.base64String = "";
     }
 
     private void Start()
     {
         addBtn.onClick.AddListener(Apply);
-        //submitBtn.onClick.AddListener();
+        submitBtn.onClick.AddListener(() =>
+        {
+            LoadImage.GetLoadIamge.Send();
+        });
     }
 
     private void Apply()
@@ -35,7 +40,7 @@ public class SharePicture : MonoBehaviour {
         //http_SharePicture.Data.AddData()
         if (pictureRawImg.texture == null)
         {
-            tipTxt.text = "请先上传营业执照和物品照片";
+            tipTxt.text = "请先上传图片";
             return;
         }
 

@@ -27,7 +27,7 @@ public class Call : MonoBehaviour
         mPay = new Pay();
         mPay.money = num.ToString();
         mPay.fangka = num.ToString();
-        mPay.uid = Static.Instance.GetValue("phone");
+        mPay.uid = Static.Instance.GetValue("huiyuan_id");
         mPay.t = "房卡";
 #if UNITY_ANDROID
         AndroidJavaObject javaObject = new AndroidJavaObject("io.dcloud.NjsHello");

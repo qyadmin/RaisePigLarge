@@ -17,6 +17,9 @@ public class AndroidPhoto : MonoBehaviour
     public void OpenPhoto(int typeid)
     {
         this.typeid = typeid;
+#if UNITY_EDITOR
+        TexTest();
+#endif
 #if UNITY_ANDROID
         Debug.Log("CAMERA");
         AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
@@ -79,7 +82,11 @@ public class AndroidPhoto : MonoBehaviour
         }
     }
 
-
+    public Texture2D tex;
+    public void TexTest()
+    {
+        SendPictureByTypeId(tex);
+    }
     public void SendPictureByTypeId(Texture2D texture2D)
     {
         if (typeid == 0)
