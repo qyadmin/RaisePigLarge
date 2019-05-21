@@ -12,7 +12,8 @@ public class PassWordChangeFinish : MonoBehaviour {
 
 	void OnEnable()
 	{
-		StartCoroutine (Times());
+		StartCoroutine (Times());  
+
 	}
 
 	IEnumerator Times()

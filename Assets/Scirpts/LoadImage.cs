@@ -9,16 +9,18 @@
 // ==================================================================
 
 using LitJson;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 public class LoadImage : MonoBehaviour
 {
-    [SerializeField]
-    HttpModel http_Share;
 
     public static LoadImage GetLoadIamge;
+    public Text tiptxt;
+    public HttpModel http_SharePicture;
     void Awake()
     {
         GetLoadIamge = this;
@@ -52,7 +54,7 @@ public class LoadImage : MonoBehaviour
         //MessageManager._Instantiate.AddLockNub();
         WWW www = new WWW(url);
         yield return www;
-       // MessageManager._Instantiate.DisLockNub();
+        // MessageManager._Instantiate.DisLockNub();
         if (www.error == null)
         {
             foreach (var item in image)
@@ -91,25 +93,19 @@ public class LoadImage : MonoBehaviour
         res.Apply();
         return res;
     }
-
+    [HideInInspector]
+    public string base64String = string.Empty;
     public void SendImage(Texture2D img, int typeImg)
     {
-        float X = 0;
-        float Y = 0;
-        if (img.width > img.height)
-        {
-            X = 1024;
-            Y = ((float)(img.height) / (float)img.width) * 1024;
-        }
-        else
-        {
-            Y = 1024;
-            X = ((float)(img.width) / (float)img.height) * 1024;
-        }
-        Texture2D newtext = texture2DTexture(img, System.Convert.ToInt32(X), System.Convert.ToInt32(Y));
-        string base64String = System.Convert.ToBase64String(newtext.EncodeToJPG());
+        Texture2D newtext = texture2DTexture(img, Convert.ToInt32(img.width), Convert.ToInt32(img.height));
+        base64String = Convert.ToBase64String(newtext.EncodeToJPG());
         // MessageManager._Instantiate.Show("base转换完成");
-        StartCoroutine(UploadTexture(base64String, typeImg));
+
+    }
+
+    public void Send()
+    {
+        StartCoroutine(UploadTexture(base64String, 0));
     }
 
     //public void SendImage(byte[] img)
@@ -149,13 +145,21 @@ public class LoadImage : MonoBehaviour
     }
     IEnumerator UploadTexture(string GetTex, int typeimg)
     {
+        EncryptDecipherTool.UserMd5();
         //MessageManager._Instantiate.Show("上传开始");
-        string url = "http://59.110.138.53/index.php/Api/api/upload_pic"; /*Static.Instance.URL + "upimage";*/
+        string url = Static.Instance.URL + "ajax_fenxiang_put.php"; /*Static.Instance.URL + "upimage";*/
         WWWForm form = new WWWForm();
         img data = new img();
         data.imgData = GetTex;
-        form.AddField("info", JsonMapper.ToJson(data));
+        Debug.Log(GetTex);
         Debug.Log(url);
+        form.AddField("huiyuan_id", Static.Instance.GetValue("huiyuan_id"));
+        form.AddField("time", Static.Instance.GetValue("time"));
+        form.AddField("token", Static.Instance.GetValue("token"));
+        form.AddField("img_url", GetTex);
+        //Debug.Log(Static.Instance.GetValue("huiyuan_id"));
+        //Debug.Log(Static.Instance.GetValue("time"));
+        //Debug.Log(Static.Instance.GetValue("token"));
         //MessageManager._Instantiate.AddLockNub();
         WWW www = new WWW(url, form);
         yield return www;
@@ -172,16 +176,30 @@ public class LoadImage : MonoBehaviour
             MSG.text = www.text;
             Debug.Log(www.text);
             //MessageManager._Instantiate.Show("图片上传成功");
-            JsonData jd = JsonMapper.ToObject(www.text);
+
+            string jsondata = System.Text.Encoding.UTF8.GetString(www.bytes, 3, www.bytes.Length - 3);
+            jsondata = jsondata.Remove(0, 0);
+            //CreateFile(Application.streamingAssetsPath, "json.txt", jsondata);
+            Static.Instance.DeleteFile(Application.persistentDataPath, "json.txt");
+            Static.Instance.CreateFile(Application.persistentDataPath, "json.txt", jsondata);
+            ArrayList infoall = Static.Instance.LoadFile(Application.persistentDataPath, "json.txt");
+            String sr = null;
+            foreach (string str in infoall)
+            {
+                sr += str;
+            }
+            JsonData jd = JsonMapper.ToObject(sr);
+            tiptxt.text = jd["msg"].ToString();
+
+
 
             if (typeimg == 0)
             {
-                
 
             }
             else
             {
-                
+
 
             }
         }
@@ -210,5 +228,4 @@ public class LoadImage : MonoBehaviour
         string base64String = System.Convert.ToBase64String(newtext.EncodeToPNG());
         //StartCoroutine(UploadTexture(base64String));
     }
-
 }

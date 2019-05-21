@@ -1,15 +1,14 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using HighlightingSystem;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class ModleClick : MonoBehaviour {
+public class ModleClick : MonoBehaviour
+{
     public static ModleClick Instance;
-	public Text ShowDeadTime;
-	public Text TodaySY;
+    public Text ShowDeadTime;
+    public Text TodaySY;
     private LandProperty Target;
     public LandProperty Target_
     {
@@ -20,8 +19,8 @@ public class ModleClick : MonoBehaviour {
         set
         {
             Target = value;
-			if(Target)
-			Static.Instance.AddValue ("d_id",Target.i.ToString());
+            if (Target)
+                Static.Instance.AddValue("d_id", Target.i.ToString());
         }
     }
 
@@ -29,33 +28,34 @@ public class ModleClick : MonoBehaviour {
     [SerializeField]
     ActionEvent Action;
     [SerializeField]
-    Animator ActionPanel,TopPanel,LeftPanel,FanHuiPanel,GuoShuPanel,ShuInfoPanel;
+    Animator ActionPanel, TopPanel, LeftPanel, FanHuiPanel, GuoShuPanel, ShuInfoPanel;
 
     [SerializeField]
     Image Plan;
 
-	[SerializeField]
-	AudioSource ClickSound;
+    [SerializeField]
+    AudioSource ClickSound;
 
-	[SerializeField]
-	UnityEvent Baoxiang;
+    [SerializeField]
+    UnityEvent Baoxiang;
     // Use this for initialization
     void Awake()
-    { 
-		Instance = this;
+    {
+        Instance = this;
         ClickEvent();
     }
-	
-	// Update is called once per frame
-	void Update () {
-		//if (Input.GetKeyDown (KeyCode.I)) 
-		//{
-		//	Debug.Log (Static.Instance.GetValue ("d_id"));
-		//	Dic GetDic = null;
-		//	Static.Instance.SaveTuDi.TryGetValue (Static.Instance.GetValue ("d_id"),out GetDic);
-		//	ShowDeadTime.text = GetDic.GetVaule("dqsj");
-		//}
-        
+
+    // Update is called once per frame
+    void Update()
+    {
+        //if (Input.GetKeyDown (KeyCode.I)) 
+        //{
+        //	Debug.Log (Static.Instance.GetValue ("d_id"));
+        //	Dic GetDic = null;
+        //	Static.Instance.SaveTuDi.TryGetValue (Static.Instance.GetValue ("d_id"),out GetDic);
+        //	ShowDeadTime.text = GetDic.GetVaule("dqsj");
+        //}
+
         if (BigLock)
             return;
         MouseClicks();
@@ -77,7 +77,7 @@ public class ModleClick : MonoBehaviour {
         {
             return;
         }
-            
+
         OtherClick(ConfirmTarget());
         Target_ = ConfirmTarget();
         TargetSetHighlight(Target_);
@@ -90,20 +90,20 @@ public class ModleClick : MonoBehaviour {
         //Target_.GetComponent<Highlighter> ().FlashingOff;
         if (Target_ != null)
         {
-   //         transform.GetChild(0).gameObject.SetActive(false);
-			//for (int i = 0; i < Target_.IsKaiKenLand.transform.childCount; i++)
-   //         {
-			//	if (Target_.IsKaiKenLand.transform.GetChild(i).CompareTag("jinju"))
-   //             {
-			//		Target_.IsKaiKenLand.transform.GetChild(i).gameObject.layer = 9;
-   //             }
-   //         }
-			//if (Target_.IsBoZhong.activeSelf) 
-			//{
-			//	for (int i = 0; i < Target_.IsBoZhong.transform.childCount; i++) {
-			//		Target_.IsBoZhong.transform.GetChild (i).gameObject.layer = 9;
-			//	}
-			//}
+            //         transform.GetChild(0).gameObject.SetActive(false);
+            //for (int i = 0; i < Target_.IsKaiKenLand.transform.childCount; i++)
+            //         {
+            //	if (Target_.IsKaiKenLand.transform.GetChild(i).CompareTag("jinju"))
+            //             {
+            //		Target_.IsKaiKenLand.transform.GetChild(i).gameObject.layer = 9;
+            //             }
+            //         }
+            //if (Target_.IsBoZhong.activeSelf) 
+            //{
+            //	for (int i = 0; i < Target_.IsBoZhong.transform.childCount; i++) {
+            //		Target_.IsBoZhong.transform.GetChild (i).gameObject.layer = 9;
+            //	}
+            //}
             TargetHighReset(Target_);
         }
         Target_ = null;
@@ -144,7 +144,7 @@ public class ModleClick : MonoBehaviour {
         else
             return obj.GetComponent<LandProperty>();
     }
-		
+
 
     private void ClickGuoShu(LandProperty isLand)
     {
@@ -153,28 +153,28 @@ public class ModleClick : MonoBehaviour {
             StopAllCoroutines();
             //BigLock = true;
             CameraMove.Instance.TargetMove(isLand.transform);
-   //         transform.GetChild(0).gameObject.SetActive(true);
-			//for (int i = 0; i < isLand.IsKaiKenLand.transform.childCount; i++)
-   //         {
-			//	if (isLand.IsKaiKenLand.transform.GetChild(i).CompareTag("jinju"))
-   //             {
-			//		isLand.IsKaiKenLand.transform.GetChild (i).gameObject.layer = 8;
-   //             }
-   //         }
-			//if (isLand.IsBoZhong.activeSelf) 
-			//{
-			//	for (int i = 0; i < isLand.IsBoZhong.transform.childCount; i++) {
-			//		isLand.IsBoZhong.transform.GetChild (i).gameObject.layer = 8;
-			//	}
-			//}
+            //         transform.GetChild(0).gameObject.SetActive(true);
+            //for (int i = 0; i < isLand.IsKaiKenLand.transform.childCount; i++)
+            //         {
+            //	if (isLand.IsKaiKenLand.transform.GetChild(i).CompareTag("jinju"))
+            //             {
+            //		isLand.IsKaiKenLand.transform.GetChild (i).gameObject.layer = 8;
+            //             }
+            //         }
+            //if (isLand.IsBoZhong.activeSelf) 
+            //{
+            //	for (int i = 0; i < isLand.IsBoZhong.transform.childCount; i++) {
+            //		isLand.IsBoZhong.transform.GetChild (i).gameObject.layer = 8;
+            //	}
+            //}
             //StartCoroutine("ClickTargetPlan");
             FanHuiPanelUp(isLand);
-			//天剑
-			Dic GetDic = null;
-			Static.Instance.SaveTuDi.TryGetValue (Static.Instance.GetValue ("d_id"),out GetDic);
-			ShowDeadTime.text = GetDic.GetVaule("dqsj");
-			TodaySY.text = GetDic.GetVaule("cf_jinbi");
-			//天剑
+            //天剑
+            Dic GetDic = null;
+            Static.Instance.SaveTuDi.TryGetValue(Static.Instance.GetValue("d_id"), out GetDic);
+            ShowDeadTime.text = GetDic.GetVaule("cf_jinbi");
+            TodaySY.text = GetDic.GetVaule("cf_jinbi");
+            //天剑
         }
     }
 
@@ -182,18 +182,18 @@ public class ModleClick : MonoBehaviour {
     private void ClickEvent()
     {
         return;
-		if (Target_ != null)
-			ActionPanelContralUp();
-		else
-			ActionPanelContralDown();
+        if (Target_ != null)
+            ActionPanelContralUp();
+        else
+            ActionPanelContralDown();
     }
 
     private void ActionPanelContralUp()
     {
         if (Target_.KaiKen_.isKaiken)
             return;
-        ActionPanel.SetBool("Up",true);
-        ActionPanel.SetBool("Down",false);   
+        ActionPanel.SetBool("Up", true);
+        ActionPanel.SetBool("Down", false);
     }
 
     private void ActionPanelContralDown()
@@ -213,8 +213,8 @@ public class ModleClick : MonoBehaviour {
         GuoShuPanel.SetBool("Up", false);
         GuoShuPanel.SetBool("Down", true);
 
-		ShuInfoPanel.SetBool ("Up",false);
-		ShuInfoPanel.SetBool ("Down",true);
+        ShuInfoPanel.SetBool("Up", false);
+        ShuInfoPanel.SetBool("Down", true);
     }
 
     private void FanHuiPanelUp(LandProperty isLand)
@@ -228,14 +228,14 @@ public class ModleClick : MonoBehaviour {
         LeftPanel.SetBool("Up", false);
         LeftPanel.SetBool("Down", true);
 
-        GuoShuPanel.SetBool("Up",true);
-        GuoShuPanel.SetBool("Down",false);
+        GuoShuPanel.SetBool("Up", true);
+        GuoShuPanel.SetBool("Down", false);
 
         FanHuiPanel.SetBool("Up", true);
         FanHuiPanel.SetBool("Down", false);
 
-		ShuInfoPanel.SetBool ("Up",true);
-		ShuInfoPanel.SetBool ("Down",false);
+        ShuInfoPanel.SetBool("Up", true);
+        ShuInfoPanel.SetBool("Down", false);
     }
 
     IEnumerator ClickTargetPlan()
@@ -315,10 +315,10 @@ public class ModleClick : MonoBehaviour {
             {
                 EndTarget = null;
                 MovingTime = 0;
-				if(hitInfo.collider.gameObject.CompareTag("baoxiang"))
-				{
-					Baoxiang.Invoke ();
-				}
+                if (hitInfo.collider.gameObject.CompareTag("baoxiang"))
+                {
+                    Baoxiang.Invoke();
+                }
                 if (hitInfo.collider.gameObject.CompareTag("jinju"))
                 {
                     LandProperty hitobj = ChoseParent(hitInfo.collider.gameObject);
@@ -359,10 +359,10 @@ public class ModleClick : MonoBehaviour {
 #endif
                 {
                     Action.ResetAction();
-                    
+
                     ClickReset();
-                }   
-            } 
+                }
+            }
             return null;
         }
 
@@ -392,7 +392,7 @@ public class ModleClick : MonoBehaviour {
 
             return null;
         }
-           
+
     }
 
 
@@ -405,7 +405,7 @@ public class ModleClick : MonoBehaviour {
         highligh.mainTexture = target.SelfMaterial_.mainTexture;
         target.SetMaterial(highligh);
         target.GetComponent<LandJump>().ClickUp();
-        Instantiate (ClickSound.gameObject);
+        Instantiate(ClickSound.gameObject);
     }
 
     void TargetHighReset(LandProperty target)
