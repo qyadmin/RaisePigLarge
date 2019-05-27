@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LandProperty : MonoBehaviour {
+public class LandProperty : MonoBehaviour
+{
 
     public class Kaiken
     {
@@ -12,7 +13,7 @@ public class LandProperty : MonoBehaviour {
     {
         public bool isBoZhong;
     }
-	public Dictionary<string, string> Message = new Dictionary<string, string>();
+    public Dictionary<string, string> Message = new Dictionary<string, string>();
 
     public GameObject IsKaiKenLand;
     public GameObject NoKaiKenLand;
@@ -25,7 +26,7 @@ public class LandProperty : MonoBehaviour {
     public Material SelfMaterial;
     public Material SaveSelfMaterial;
 
-	public int i;
+    public int i;
 
     public Material SelfMaterial_
     {
@@ -62,23 +63,18 @@ public class LandProperty : MonoBehaviour {
 
     void Test()
     {
-		if (Message.Count != 0)
-			KaiKen_.isKaiken = true;
-		else
-        KaiKen_.isKaiken = false;
-		if (GetTreeMessage ("cf_jinbi") == "0") 
-		{
-			Bozhong_.isBoZhong = false;
-		}
-		else
-			Bozhong_.isBoZhong = true;    
+        if (Message.Count != 0)
+            KaiKen_.isKaiken = true;
+        else
+            KaiKen_.isKaiken = false;
+        Bozhong_.isBoZhong = double.Parse(GetTreeMessage("sl")) != 0;
     }
 
     public void Refresh()
     {
-		Test();
-		TuDiKaiKen(KaiKen_.isKaiken);
-		TuDiBozhong(Bozhong_.isBoZhong);
+        Test();
+        TuDiKaiKen(KaiKen_.isKaiken);
+        TuDiBozhong(Bozhong_.isBoZhong);
     }
 
     public void ResetLand()
@@ -94,8 +90,8 @@ public class LandProperty : MonoBehaviour {
     {
         if (isLand)
         {
-            SetActive(IsKaiKenLand,true);
-            SetActive(NoKaiKenLand,false);
+            SetActive(IsKaiKenLand, true);
+            SetActive(NoKaiKenLand, false);
         }
         else
         {
@@ -121,14 +117,14 @@ public class LandProperty : MonoBehaviour {
         return GetLand().transform.GetChild(0).GetComponent<Renderer>().material;
     }
 
-    void SetActive(GameObject obj,bool TF)
+    void SetActive(GameObject obj, bool TF)
     {
         if (!TF)
             if (SaveSelfMaterial)
             {
                 obj.transform.GetChild(0).GetComponent<Renderer>().material = SaveSelfMaterial;
             }
-       
+
 
         obj.SetActive(TF);
     }
@@ -156,10 +152,10 @@ public class LandProperty : MonoBehaviour {
         }
     }
 
-	public string GetTreeMessage(string message)
-	{
-		string GetTreeValue = null;
-		Message.TryGetValue(message, out GetTreeValue);
-		return GetTreeValue;
-	}
+    public string GetTreeMessage(string message)
+    {
+        string GetTreeValue = null;
+        Message.TryGetValue(message, out GetTreeValue);
+        return GetTreeValue;
+    }
 }
