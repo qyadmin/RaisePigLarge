@@ -18,8 +18,8 @@ public class Call : MonoBehaviour
     private Pay mPay;
 
 
-    //[DllImport("__Internal")]
-    //private static extern void _Payforios(string obj);
+    [DllImport("__Internal")]
+    private static extern void _Payforios(string obj);
 
 
     public void send(int num)
