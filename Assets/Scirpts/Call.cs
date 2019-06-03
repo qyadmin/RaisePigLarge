@@ -21,13 +21,18 @@ public class Call : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void _Payforios(string obj);
 
+    private object orderId;
+    public void GetOrderId(object orderId)
+    {
+        this.orderId = orderId;
+    }
 
     public void send(int num)
     {
         mPay = new Pay();
         mPay.money = num.ToString();
         mPay.fangka = num.ToString();
-        mPay.uid = Static.Instance.GetValue("huiyuan_id");
+        mPay.uid = orderId.ToString();
         mPay.t = "房卡";
 #if UNITY_ANDROID
         AndroidJavaObject javaObject = new AndroidJavaObject("io.dcloud.NjsHello");
