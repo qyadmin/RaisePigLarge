@@ -1,0 +1,1932 @@
+fileFormatVersion: 2
+guid: 36335a451eff3d64b897ac3d3bd7bc8b
+timeCreated: 1499825855
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Chest 1
+    100004: Chest_Breathing_CTRL
+    100006: Chest_CTRL
+    100008: Chest_hinge1
+    100010: Chest_hinge2
+    100012: Chest_IK
+    100014: Front_Left_Leg_Lower
+    100016: Front_Left_Leg_Upper
+    100018: Front_Left_Paw
+    100020: Front_Left_Paw_end
+    100022: Front_Right_Leg_Lower
+    100024: Front_Right_Leg_Upper
+    100026: Front_Right_Paw
+    100028: Front_Right_Paw_end
+    100030: Head
+    100032: Head_CTRL
+    100034: Head_end
+    100036: //RootNode
+    100038: husky_mesh
+    100040: IKs
+    100042: Jaw
+    100044: joint1
+    100046: Left_Back_Leg_end
+    100048: Left_Back_Leg_Lower
+    100050: Left_Back_Leg_Paw
+    100052: Left_Back_Leg_Toes
+    100054: Left_Back_Leg_Upper
+    100056: Left_Ear
+    100058: Left_Ear_CTRL
+    100060: Left_Ear_end
+    100062: Left_Front_Leg_CTRL
+    100064: Left_Front_Leg_IK
+    100066: Left_Rear_Leg_CTRL
+    100068: Left_Rear_Leg_IK
+    100070: Left_Rear_Paw_CTRL
+    100072: Master_Controller
+    100074: Mout_Bottom
+    100076: Mout_Bottom_end
+    100078: Mout_Top
+    100080: Mout_Top_end
+    100082: Mouth_Bottom_CTRL
+    100084: Mouth_Top_CTRL
+    100086: Neck
+    100088: Neck_CTRL
+    100090: Right_Back_Leg_end
+    100092: Right_Back_Leg_Lower
+    100094: Right_Back_Leg_Paw
+    100096: Right_Back_Leg_Toes
+    100098: Right_Back_Leg_Upper
+    100100: Right_Ear
+    100102: Right_Ear_CTRL
+    100104: Right_Ear_end
+    100106: Right_Front_Leg_CTRL
+    100108: Right_Front_Leg_IK
+    100110: Right_Rear_Leg_CTRL
+    100112: Right_Rear_Leg_IK
+    100114: Right_Rear_Paw_CTRL
+    100116: Root
+    100118: Root_CTRL
+    100120: Spine
+    100122: Spine_CTRL
+    100124: Tail_0
+    100126: Tail_0_CTRL
+    100128: Tail_1
+    100130: Tail_1_CTRL
+    100132: Tail_2
+    100134: Tail_2_CTRL
+    100136: Tail_3
+    100138: Tail_3_CTRL
+    100140: Tail_end
+    400000: Chest
+    400002: Chest 1
+    400004: Chest_Breathing_CTRL
+    400006: Chest_CTRL
+    400008: Chest_hinge1
+    400010: Chest_hinge2
+    400012: Chest_IK
+    400014: Front_Left_Leg_Lower
+    400016: Front_Left_Leg_Upper
+    400018: Front_Left_Paw
+    400020: Front_Left_Paw_end
+    400022: Front_Right_Leg_Lower
+    400024: Front_Right_Leg_Upper
+    400026: Front_Right_Paw
+    400028: Front_Right_Paw_end
+    400030: Head
+    400032: Head_CTRL
+    400034: Head_end
+    400036: //RootNode
+    400038: husky_mesh
+    400040: IKs
+    400042: Jaw
+    400044: joint1
+    400046: Left_Back_Leg_end
+    400048: Left_Back_Leg_Lower
+    400050: Left_Back_Leg_Paw
+    400052: Left_Back_Leg_Toes
+    400054: Left_Back_Leg_Upper
+    400056: Left_Ear
+    400058: Left_Ear_CTRL
+    400060: Left_Ear_end
+    400062: Left_Front_Leg_CTRL
+    400064: Left_Front_Leg_IK
+    400066: Left_Rear_Leg_CTRL
+    400068: Left_Rear_Leg_IK
+    400070: Left_Rear_Paw_CTRL
+    400072: Master_Controller
+    400074: Mout_Bottom
+    400076: Mout_Bottom_end
+    400078: Mout_Top
+    400080: Mout_Top_end
+    400082: Mouth_Bottom_CTRL
+    400084: Mouth_Top_CTRL
+    400086: Neck
+    400088: Neck_CTRL
+    400090: Right_Back_Leg_end
+    400092: Right_Back_Leg_Lower
+    400094: Right_Back_Leg_Paw
+    400096: Right_Back_Leg_Toes
+    400098: Right_Back_Leg_Upper
+    400100: Right_Ear
+    400102: Right_Ear_CTRL
+    400104: Right_Ear_end
+    400106: Right_Front_Leg_CTRL
+    400108: Right_Front_Leg_IK
+    400110: Right_Rear_Leg_CTRL
+    400112: Right_Rear_Leg_IK
+    400114: Right_Rear_Paw_CTRL
+    400116: Root
+    400118: Root_CTRL
+    400120: Spine
+    400122: Spine_CTRL
+    400124: Tail_0
+    400126: Tail_0_CTRL
+    400128: Tail_1
+    400130: Tail_1_CTRL
+    400132: Tail_2
+    400134: Tail_2_CTRL
+    400136: Tail_3
+    400138: Tail_3_CTRL
+    400140: Tail_end
+    4300000: husky_mesh
+    7400000: TPose
+    7400002: Idle Standing
+    7400004: Idle Sitting
+    7400006: Idle Lying
+    7400008: Walk
+    7400010: Run
+    7400012: Jump
+    7400014: Bark
+    7400016: Willing To Play
+    7400018: 2 Feet Standing
+    9500000: //RootNode
+    13700000: husky_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TPose
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Standing
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Sitting
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Lying
+      takeName: Take 001
+      firstFrame: 97
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 129
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 193
+      lastFrame: 222
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bark
+      takeName: Take 001
+      firstFrame: 222
+      lastFrame: 254
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Willing To Play
+      takeName: Take 001
+      firstFrame: 257
+      lastFrame: 286
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 2 Feet Standing
+      takeName: Take 001
+      firstFrame: 289
+      lastFrame: 318
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: husky_mesh
+        weight: 1
+      - path: IKs
+        weight: 1
+      - path: IKs/Chest_IK
+        weight: 1
+      - path: IKs/Left_Front_Leg_IK
+        weight: 1
+      - path: IKs/Left_Rear_Leg_IK
+        weight: 1
+      - path: IKs/Right_Front_Leg_IK
+        weight: 1
+      - path: IKs/Right_Rear_Leg_IK
+        weight: 1
+      - path: Master_Controller
+        weight: 1
+      - path: Master_Controller/Left_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Left_Rear_Leg_CTRL/Left_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Front_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL
+        weight: 1
+      - path: Master_Controller/Right_Rear_Leg_CTRL/Right_Rear_Paw_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Chest_Breathing_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Left_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Bottom_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Mouth_Top_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Spine_CTRL/Chest_CTRL/Neck_CTRL/Head_CTRL/Right_Ear_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL
+        weight: 1
+      - path: Master_Controller/Root_CTRL/Tail_0_CTRL/Tail_1_CTRL/Tail_2_CTRL/Tail_3_CTRL
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes
+        weight: 1
+      - path: Root/Left_Back_Leg_Upper/Left_Back_Leg_Lower/Left_Back_Leg_Paw/Left_Back_Leg_Toes/Left_Back_Leg_end
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes
+        weight: 1
+      - path: Root/Right_Back_Leg_Upper/Right_Back_Leg_Lower/Right_Back_Leg_Paw/Right_Back_Leg_Toes/Right_Back_Leg_end
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2
+        weight: 1
+      - path: Root/Spine/Chest/Chest_hinge1/Chest_hinge2/Chest 1
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Left_Leg_Upper/Front_Left_Leg_Lower/Front_Left_Paw/Front_Left_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw
+        weight: 1
+      - path: Root/Spine/Chest/Front_Right_Leg_Upper/Front_Right_Leg_Lower/Front_Right_Paw/Front_Right_Paw_end
+        weight: 1
+      - path: Root/Spine/Chest/joint1
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw/Mout_Bottom/Mout_Bottom_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Left_Ear/Left_Ear_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Mout_Top/Mout_Top_end
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Right_Ear/Right_Ear_end
+        weight: 1
+      - path: Root/Tail_0
+        weight: 1
+      - path: Root/Tail_0/Tail_1
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Tail_0/Tail_1/Tail_2/Tail_3/Tail_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
